@@ -119,7 +119,8 @@
             <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
                 TODAY'S SPECIALITY</h2>
         </div>
-        <div class="container w-full px-5 py-6 mx-auto">
+        {{-- <div class="container w-full px-5 py-6 mx-auto">
+            @if ($specials->menus !==null)
             <div class="grid lg:grid-cols-4 gap-y-6">
                 @foreach ($specials->menus as $menu)
                     <div class="max-w-xs mx-4 mb-2 rounded-lg shadow-lg">
@@ -135,7 +136,9 @@
                     </div>
                 @endforeach
             </div>
-        </div>
+            @endif
+            
+        </div> --}}
     </section>
     <section class="pt-4 pb-12 bg-gray-800">
         <div class="my-16 text-center">
